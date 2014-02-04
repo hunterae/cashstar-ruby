@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "cashstar/version"
 
 Gem::Specification.new do |s|
-  s.name        = "cashstar"
+  s.name        = "cashstar-ruby"
   s.version     = Cashstar::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Charlie White"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://www.cashstar.com"
   s.summary     = %q{Ruby Bindings for the CashStar API}
   s.description = %q{CashStar's API provides a simple interface for purchasing and issuing electronic gift cards from a variety of brands}
-  s.rubyforge_project = "cashstar"
+  s.rubyforge_project = "cashstar-ruby"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
