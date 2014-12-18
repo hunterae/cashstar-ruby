@@ -1,6 +1,8 @@
 # A CashStar Ruby Gem
 A Ruby wrapper for the CashStar REST API
 
+Note: This gem is a copy of the gem found here: https://github.com/crowdtap/cashstar. I created a copy of that gem because the cashstar team was not responding to my request to put their gem on Rubygems.
+
 ## <a name="installation">Installation</a>
     gem install cashstar
 
