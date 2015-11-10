@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   #s.files = Dir['lib/**/*.rb']
 
-  s.add_dependency 'hashie', '~> 1.2.0'
+  s.add_dependency 'hashie'
   s.add_dependency 'faraday', '~> 0.8'
   s.add_dependency 'faraday_middleware', '~> 0.8'
   s.add_dependency 'multi_json', '~> 1.8.0'
@@ -28,4 +28,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec', '~> 2.12'
   s.add_development_dependency 'mocha', '~> 0.13'
   s.add_development_dependency 'webmock', '~> 1.9'
+  s.add_development_dependency 'rake'
 end
