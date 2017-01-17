@@ -4,7 +4,12 @@ A Ruby wrapper for the CashStar REST API
 Note: This gem is a copy of the gem found here: https://github.com/crowdtap/cashstar. I created a copy of that gem because the cashstar team was not responding to my request to put their gem on Rubygems.
 
 ## <a name="installation">Installation</a>
-    gem install cashstar
+
+You can add it to your Gemfile with:
+
+```sh
+gem "cashstar-ruby", require: "cashstar"
+```
 
 ## <a name="Full API Docs">Full Documentation</a>
 	please consult your CashStar API documentation for full use cases and support
