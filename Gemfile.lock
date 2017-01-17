@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cashstar-ruby (0.2.3)
+    cashstar-ruby (0.2.4)
       faraday (~> 0.8)
       faraday_middleware (~> 0.8)
       hashie
